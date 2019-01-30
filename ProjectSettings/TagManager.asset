@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - RockRemover
+  - ScoreChecker
   layers:
   - Default
   - TransparentFX
