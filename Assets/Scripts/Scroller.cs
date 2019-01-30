@@ -16,7 +16,7 @@ public class Scroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float newPos = Mathf.Repeat(Time.time * scrollSpeed, 17);
+        float newPos = Mathf.Repeat(Time.time * scrollSpeed, 16.78f);
         transform.position = startPos + Vector2.right * newPos;
     }
 }
