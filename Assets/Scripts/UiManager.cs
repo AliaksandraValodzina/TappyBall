@@ -33,7 +33,7 @@ public class UiManager : MonoBehaviour
         scoreText.text = ScoreManager.instance.score.ToString();
     }
 
-    public void GameStar()
+    public void GameStart()
     {
         startUI.SetActive(false);
     }
