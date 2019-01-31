@@ -37,7 +37,7 @@ public class UiManager : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
+        SceneManager.LoadScene("level1");
     }
 
     public void Menu()
