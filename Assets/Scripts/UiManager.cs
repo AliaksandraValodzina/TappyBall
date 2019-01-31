@@ -40,7 +40,8 @@ public class UiManager : MonoBehaviour
 
     public void GameOver()
     {
-        highScoreText.Text = PlayerPrefs.GetInt("HighScore").ToString();
+        gameOverText.SetActive(true);
+        highScoreText.text = PlayerPrefs.GetInt("HighScore").ToString();
         gameOverPanel.SetActive(true);
     }
 

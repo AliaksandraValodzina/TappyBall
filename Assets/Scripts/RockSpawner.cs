@@ -11,7 +11,7 @@ public class RockSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SpartSpawningRocks();
+        // SpartSpawningRocks();
     }
 
     // Update is called once per frame

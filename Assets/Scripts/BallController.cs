@@ -26,6 +26,7 @@ public class BallController : MonoBehaviour
             {
                 isStarted = true;
                 rb.isKinematic = false;
+                GameManager.instance.GameStart();
             }
         }
         else
@@ -38,11 +39,18 @@ public class BallController : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        isGameOver = true;
+        GameManager.instance.GameOver();
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Pipe")
+        if(col.gameObject.tag == "Pipe" && !isGameOver)
         {
             isGameOver = true;
+            GameManager.instance.GameOver();
         }
 
         if(col.gameObject.tag == "ScoreChecker" && !isGameOver)

@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 1824915621421485695}
   m_Layer: 0
   m_Name: rockGrass
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 1824915622078841100}
   m_Layer: 0
   m_Name: rockGrass (1)
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

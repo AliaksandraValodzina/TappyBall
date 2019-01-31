@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RockRemover
   - ScoreChecker
+  - Pipe
   layers:
   - Default
   - TransparentFX

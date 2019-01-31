@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Scripts\BallController.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MenuUiManager.cs" />
      <Compile Include="Assets\Scripts\RockController.cs" />
      <Compile Include="Assets\Scripts\RockSpawner.cs" />
